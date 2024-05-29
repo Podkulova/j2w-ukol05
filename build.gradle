@@ -21,6 +21,9 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-validation'
     implementation 'dev.czechitas.java2:czechitas-spring-boot-starter:0.9.7'
 
+
+
+
     modules {
         module('org.springframework.boot:spring-boot-starter-tomcat') {
             replacedBy('org.springframework.boot:spring-boot-starter-jetty', "Use Jetty instead of Tomcat")
